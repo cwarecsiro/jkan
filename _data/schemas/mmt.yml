@@ -58,12 +58,12 @@ resource_fields:
       - flt
       - tiff
       - nc
-    - field_name: bounds
-      label: Bounds
-    - field_name: resolution
-      label: Spatial Resolution
-    - field_name: crs
-      label: Coordinate Reference System
+  - field_name: bounds
+    label: Bounds
+  - field_name: resolution
+    label: Spatial Resolution
+  - field_name: crs
+    label: Coordinate Reference System
 
 organization_fields:
   - field_name: title
