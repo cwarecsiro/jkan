@@ -1,4 +1,4 @@
-title: HOME
+title: MMT Data
 greeting: MMT Data
 description: CSIRO Macroecological Modelling Team data catalogue.
 baseurl: /jkan
@@ -27,7 +27,7 @@ collections:
     output: true
     permalink: /datasets/:path/
   organizations:
-    output: false
+    output: true
     permalink: /organizations/:path/
 
 # Collections (cont'd)
