@@ -18,7 +18,7 @@ schema: mmt
 navigation:
   - title: Datasets
     url: /datasets/
-  - title: Organizations
+  - title: Preview
     url: /organizations/
 
 # Collections
@@ -27,7 +27,7 @@ collections:
     output: true
     permalink: /datasets/:path/
   organizations:
-    output: true
+    output: false
     permalink: /organizations/:path/
 
 # Collections (cont'd)
