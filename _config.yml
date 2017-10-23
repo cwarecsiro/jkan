@@ -1,6 +1,6 @@
-title: JKAN
-greeting: Welcome to JKAN
-description: A lightweight, backend-free open data portal, powered by Jekyll.
+title: HOME
+greeting: MMT Data
+description: CSIRO Macroecological Modelling Team data catalogue.
 baseurl: /jkan
 logo: /img/jkan.png
 
@@ -12,7 +12,7 @@ github_client_id: e1fd8ef01ce53b6adcd1
 gatekeeper_host: https://mmt-data.herokuapp.com
 
 # Dataset schema
-schema: default
+schema: mmt
 
 # Nav bar
 navigation:
