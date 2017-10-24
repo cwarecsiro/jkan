@@ -1,7 +1,7 @@
 ---
 schema: mmt
 title: MISSING TITLE
-organisation: TA_90_CAN85_D
+organization: TA_90_CAN85_D
 notes:
 resources: 
   - name: TA_90_CAN85_D
