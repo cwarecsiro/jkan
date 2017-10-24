@@ -21,7 +21,7 @@ dataset_fields:
     form_template: form/category.html
     display_template: display/category.html
     datajson: category
-  - field_name: publications
+  - field_name: publication
     label: Publications
   - field_name: maintainer
     label: Maintainer
@@ -29,9 +29,9 @@ dataset_fields:
   - field_name: maintainer_email
     label: Maintainer Email
     datajson: contactPoint.hasEmail
-  - field_name: last_mod
+  - field_name: last_modified
     label: Last Modified
-  - field_name: md5
+  - field_name: internal_id
     label: MD5
 
 resource_fields:
@@ -60,7 +60,7 @@ resource_fields:
       - nc
   - field_name: bounds
     label: Bounds
-  - field_name: resolution
+  - field_name: spatial_res
     label: Spatial Resolution
   - field_name: crs
     label: Coordinate Reference System
