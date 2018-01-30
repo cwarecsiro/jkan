@@ -5,7 +5,7 @@ organization: wofs_9s
 notes: "Spatially aggregated version of http://www.ga.gov.au/scientific-topics/hazards/flood/wofs\r\n"
 resources:
   - name: wofs_9s
-    url: ''
+    url: 'http://www.ga.gov.au/interactive-maps/#/theme/water/map/wofs'
     format: tiff
     bounds: '112.90000000, 154.00000000, -43.74250000, -8.00000000'
     spatial_res: 9 arcsec (~270m)
