@@ -6,7 +6,7 @@ notes: Ecological change measures for Tasmania
 resources:
   - name: TA_90_CAN85_D
     url: 'http://doi.org/10.4225/08/58ffcc6415947'
-    format: ''
+    format: 'api'
     bounds: '143.80000000, 148.50000000, -43.74250000, -39.30000000'
     spatial_res: 8 arcsec (~240m)
     crs: WGS84
