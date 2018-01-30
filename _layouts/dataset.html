@@ -18,16 +18,14 @@ layout: default
         <div class="panel panel-default">
             <div class="panel-heading">
               {% if organization.logo and organization.logo != empty %}
-              <!--<a href="{{ site.baseurl }}/datasets/?organization={{ organization.title | slugify }}" class="thumbnail"><img src="{{ organization.logo }}" alt="{{ organization.title }} logo"></a>-->
+              <a href="{{ site.baseurl }}/datasets/?organization={{ organization.title | slugify }}" class="thumbnail"><img src="{{ organization.logo }}" alt="{{ organization.title }} logo"></a>
 			  <a href="{{ resource.url }}" class="thumbnail"><img src="{{ organization.logo }}" alt="{{ organization.title }} logo"></a>
               {% endif %}
             </div>
             <div class="panel-body">
               <h3>
-                <!--<a href="{{ organization_url }}" about="{{ organization_url }}" property="foaf:homepage">
-                  <span property="foaf:name">{{ organization.title }}</span>
-                </a>-->
-				<a href="{{ resource.url }}" property='dcat:accessURL'>
+                <!--<a href="{{ organization_url }}" about="{{ organization_url }}" property="foaf:homepage">-->
+				<a about="{{ organization_url }}" property="foaf:homepage">
                   <span property="foaf:name">{{ organization.title }}</span>
                 </a>
               </h3>
