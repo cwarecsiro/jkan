@@ -24,9 +24,10 @@ layout: default
             </div>
             <div class="panel-body">
               <h3>
-                <a href="{{ organization_url }}" about="{{ organization_url }}" property="foaf:homepage">
+                <!--<a href="{{ organization_url }}" about="{{ organization_url }}" property="foaf:homepage">
                   <span property="foaf:name">{{ organization.title }}</span>
-                </a>
+                </a>-->
+				<a href="{{ resource.url }}" property='dcat:accessURL'><span property="dct:title">{{ resource.name }}</span></a>
               </h3>
               {{ organization.description }}
             </div>
